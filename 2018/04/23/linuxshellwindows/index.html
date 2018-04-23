@@ -257,7 +257,7 @@
 <li><h5 id="2018-04-03"><a href="#2018-04-03" class="headerlink" title="[2018.04.03]"></a>[2018.04.03]<br></h5><h5 id="功能合并"><a href="#功能合并" class="headerlink" title="功能合并:"></a>功能合并:</h5><h5 id="1-Debian-Ubuntu-CentOS-网络安装-重装系统-纯净安装-一键脚本"><a href="#1-Debian-Ubuntu-CentOS-网络安装-重装系统-纯净安装-一键脚本" class="headerlink" title="1. Debian/Ubuntu/CentOS 网络安装/重装系统/纯净安装 一键脚本"></a>1. <a href="https://moeclub.org/2018/04/03/603/" target="_blank" rel="noopener">Debian/Ubuntu/CentOS 网络安装/重装系统/纯净安装 一键脚本</a></h5><h5 id="2-2018-03-30"><a href="#2-2018-03-30" class="headerlink" title="2. [2018.03.30]"></a>2. [2018.03.30]<br></h5><h5 id="优化GRUB检测测逻辑"><a href="#优化GRUB检测测逻辑" class="headerlink" title="优化GRUB检测测逻辑."></a>优化GRUB检测测逻辑.<br></h5><h5 id="添加组件依赖检测"><a href="#添加组件依赖检测" class="headerlink" title="添加组件依赖检测."></a>添加组件依赖检测.<br></h5><h5 id="修复一些已知BUG"><a href="#修复一些已知BUG" class="headerlink" title="修复一些已知BUG."></a>修复一些已知BUG.<br></h5><h5 id="3-2018-03-25"><a href="#3-2018-03-25" class="headerlink" title="3. [2018.03.25]"></a>3. [2018.03.25]</h5><h5 id="优化判断逻辑"><a href="#优化判断逻辑" class="headerlink" title="优化判断逻辑."></a>优化判断逻辑.<br></h5><h5 id="增加手动指定网络参数选项-可有效避免自动获取网络参数无效造成无法直接联网的问题"><a href="#增加手动指定网络参数选项-可有效避免自动获取网络参数无效造成无法直接联网的问题" class="headerlink" title="增加手动指定网络参数选项,可有效避免自动获取网络参数无效造成无法直接联网的问题. "></a>增加手动指定网络参数选项,可有效避免自动获取网络参数无效造成无法直接联网的问题. <br></h5></li>
 <li><h2 id="背景"><a href="#背景" class="headerlink" title="背景:"></a>背景:</h2><h5 id="1-带Windows的为什么就卖得那么贵"><a href="#1-带Windows的为什么就卖得那么贵" class="headerlink" title="1. 带Windows的为什么就卖得那么贵?"></a>1. 带Windows的为什么就卖得那么贵?</h5><h5 id="2-当然是为了更自由的使用自己的机器"><a href="#2-当然是为了更自由的使用自己的机器" class="headerlink" title="2. 当然是为了更自由的使用自己的机器."></a>2. 当然是为了更自由的使用自己的机器.</h5></li>
 <li><p>需求:</p>
-<h5 id="1-与萌咖博客中的Debian-Ubuntu-网络安装-重装一键脚本需求一样"><a href="#1-与萌咖博客中的Debian-Ubuntu-网络安装-重装一键脚本需求一样" class="headerlink" title="1. 与萌咖博客中的Debian(Ubuntu)网络安装/重装一键脚本需求一样."></a>1. 与萌咖博客中的Debian(Ubuntu)网络安装/重装一键脚本需求一样.</h5><h5 id="2-无DHCP时额外需求-iconv"><a href="#2-无DHCP时额外需求-iconv" class="headerlink" title="2. 无DHCP时额外需求: iconv"></a>2. 无DHCP时额外需求: iconv</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#Debian/Ubuntu</span></span><br><span class="line"><span class="comment">## 一般自带</span></span><br><span class="line"><span class="comment">#RedHat/CentOS</span></span><br><span class="line">yum install glibc-common</span><br><span class="line"> `</span><br></pre></td></tr></table></figure>
+<h5 id="1-与萌咖博客中的Debian-Ubuntu-网络安装-重装一键脚本需求一样"><a href="#1-与萌咖博客中的Debian-Ubuntu-网络安装-重装一键脚本需求一样" class="headerlink" title="1. 与萌咖博客中的Debian(Ubuntu)网络安装/重装一键脚本需求一样."></a>1. 与萌咖博客中的Debian(Ubuntu)网络安装/重装一键脚本需求一样.</h5><h5 id="2-无DHCP时额外需求-iconv"><a href="#2-无DHCP时额外需求-iconv" class="headerlink" title="2. 无DHCP时额外需求: iconv"></a>2. 无DHCP时额外需求: iconv</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#Debian/Ubuntu</span></span><br><span class="line"><span class="comment">## 一般自带</span></span><br><span class="line"><span class="comment">#RedHat/CentOS</span></span><br><span class="line">yum install glibc-common</span><br></pre></td></tr></table></figure>
 </li>
 <li><h2 id="限制"><a href="#限制" class="headerlink" title="限制:"></a>限制:</h2><h5 id="1-需要定制dd包"><a href="#1-需要定制dd包" class="headerlink" title="1. 需要定制dd包."></a>1. 需要定制dd包.</h5><h5 id="开启内置Administrator账户登录-配置自动登陆"><a href="#开启内置Administrator账户登录-配置自动登陆" class="headerlink" title="开启内置Administrator账户登录(配置自动登陆).."></a>开启内置Administrator账户登录(配置自动登陆)..</h5><h5 id="开启远程桌面-默认3389端口"><a href="#开启远程桌面-默认3389端口" class="headerlink" title="开启远程桌面(默认3389端口)."></a>开启远程桌面(默认3389端口).</h5><h5 id="禁用UAC"><a href="#禁用UAC" class="headerlink" title="禁用UAC.."></a>禁用UAC..</h5><h5 id="适当的调整防火墙-可选"><a href="#适当的调整防火墙-可选" class="headerlink" title="适当的调整防火墙.(可选)"></a>适当的调整防火墙.(可选)</h5></li>
 <li><h2 id="需要相关的虚拟化驱动"><a href="#需要相关的虚拟化驱动" class="headerlink" title="需要相关的虚拟化驱动."></a>需要相关的虚拟化驱动.</h2><a href="https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso" target="_blank" rel="noopener">VirtIO驱动</a>(备份下载)<a href="https://xenbits.xen.org/pvdrivers/win/" target="_blank" rel="noopener"> XEN驱动</a>(备份下载)<h5 id="dd包解压后的体积不能超过机器第一块硬盘的最大容积"><a href="#dd包解压后的体积不能超过机器第一块硬盘的最大容积" class="headerlink" title="dd包解压后的体积不能超过机器第一块硬盘的最大容积."></a>dd包解压后的体积不能超过机器第一块硬盘的最大容积.</h5></li>
@@ -436,12 +436,6 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2018/04/21/ovs-sriov/">ovs-sriov综合策略脚本</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
                     <a href="/2018/04/23/linuxshellwindows/">通用无限制在 Linux VPS 上一键全自动 dd 安装 Windows 系统</a>
                 </span>
             </li>
@@ -449,6 +443,12 @@
             <li class="list-group-item">
                 <span class="post-title">
                     <a href="/2018/04/23/linuxvps/">Debian/Ubuntu/CentOS 网络安装/重装系统/纯净安装 一键脚本</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2018/04/21/ovs-sriov/">ovs-sriov综合策略脚本</a>
                 </span>
             </li>
             
@@ -475,11 +475,11 @@
             <div class="tab-content">
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
-    <a href="/tags/一键脚本/" style="font-size: 10.68286558602712px;" class="tag-cloud-link">一键脚本</a>
+    <a href="/tags/一键脚本/" style="font-size: 12.148895829081333px;" class="tag-cloud-link">一键脚本</a>
     
-    <a href="/tags/linux脚本集合/" style="font-size: 16.86488793972189px;" class="tag-cloud-link">linux脚本集合</a>
+    <a href="/tags/linux脚本集合/" style="font-size: 18.544127751901797px;" class="tag-cloud-link">linux脚本集合</a>
     
-    <a href="/tags/容器虚拟化/" style="font-size: 15.745599314210818px;" class="tag-cloud-link">容器虚拟化</a>
+    <a href="/tags/容器虚拟化/" style="font-size: 17.472769397663658px;" class="tag-cloud-link">容器虚拟化</a>
     
 </div>
                 <div class="friend-links tab-pane nav bs-sidenav fade" id="sidebar-friend-links">
